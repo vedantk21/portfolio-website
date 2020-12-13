@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+#78FFF1&display=swap');
 
 :root {
-    --primary-color: #7C3AED;
-    --off-white: #F3F4F6;
+    --primary-color: #361999;
+    --off-white: #FF6495;
     --dark-gray: #6B7280;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0px
+    font-family: 'Archivo #78FFF1', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -35,13 +36,16 @@ hr {
 .link {
     box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: white;
+    color: #78FFF1;
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
@@ -55,8 +59,6 @@ hr {
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
 }
-
-/** look into BEM naming convention for CSS **/
 
 /** lists **/
 
@@ -74,8 +76,10 @@ hr {
 
 .navigation {
     background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
+    color: #78FFF1;
+    padding: 0.25rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
     border-bottom-left-radius: 1rem;
 }
 
@@ -88,7 +92,7 @@ hr {
 }
 
 .navigation .link {
-    color: white;
+    color: #78FFF1;
 }
 
 .navigation .link-active {
@@ -141,12 +145,12 @@ hr {
     background-color: var(--primary-color);
     padding: 4rem 1rem;
     text-align: center;
-    color: white;
+    color: #78FFF1;
     border-top-right-radius: 1rem;
 }
 
 .footer .link {
-    color: white
+    color: #78FFF1
 }
 
 .footer .footer-header {
